@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://img/arbolm.png" type="Texture" id=1]
+
+[node name="StaticBody2D" type="StaticBody2D" index="0" groups=[
+"tubin",
+]]
+
+position = Vector2( 411.83, -81.2213 )
+scale = Vector2( 0.534173, 0.431794 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite2" type="Sprite" parent="." index="0"]
+
+position = Vector2( 0, -350 )
+rotation = -3.12815
+scale = Vector2( 3.52385, 3.33296 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite3" type="Sprite" parent="." index="1"]
+
+position = Vector2( 0, 187.295 )
+rotation = 0.00565815
+scale = Vector2( 3.52385, 3.33296 )
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+
+build_mode = 0
+polygon = PoolVector2Array( -45.5149, -31.6288, -59.6771, -15.3601, -61.7003, 3.41139, -60.6887, 58.4745, -47.5381, 63.4803, -41.4686, 81.0003, -16.179, 78.4974, -18.2021, 402.619, 15.1802, 402.619, 19.2266, 75.9946, 46.5394, 75.9946, 55.6436, 58.4745, 64.748, 58.4745, 64.748, -15.3601, 43.5046, -31.6288 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+
+build_mode = 0
+polygon = PoolVector2Array( -56.4578, -141.419, 47.867, -139.883, 57.8027, -152.174, 61.5286, -216.705, 46.625, -230.533, 40.4152, -242.824, 16.818, -244.36, 20.6677, -558.331, -15.7504, -561.23, -20.9556, -240.178, -46.2383, -239.258, -49.2127, -226.379, -64.085, -225.459, -67.0594, -153.705 )
+
+

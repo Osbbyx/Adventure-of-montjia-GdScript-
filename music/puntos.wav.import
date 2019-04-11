@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/puntos.wav-bd7a996705e57bea93fb05f9306770c0.sample"
+
+[deps]
+
+source_file="res://music/puntos.wav"
+dest_files=[ "res://.import/puntos.wav-bd7a996705e57bea93fb05f9306770c0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0
